@@ -1,0 +1,18 @@
+body{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bg{
+    background-image: url(./imagen.jpg);
+    background-position: center center;
+}
+footer{
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 2rem;
+    background:  linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}

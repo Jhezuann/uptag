@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ADA996;
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+}
+footer{
+    background:  linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 1em 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
