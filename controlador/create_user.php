@@ -34,7 +34,7 @@ if ($result == false) {
     // Mostrar mensaje de alerta de usuario registrado exitosamente
     echo "<script>alert('Usuario registrado exitosamente');</script>";
     // Después de mostrar la alerta, redirigir al usuario a login.php
-    echo "<script>window.location = 'login.php';</script>";
+    echo "<script>window.location = 'usuarios.php';</script>";
 }
 
 $_SESSION['token'] = $result;

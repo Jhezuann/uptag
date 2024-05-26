@@ -287,7 +287,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `respuesta2` varchar(64) COLLATE utf8mb3_spanish_ci NOT NULL,
   `respuesta3` varchar(64) COLLATE utf8mb3_spanish_ci NOT NULL,
   `email` VARCHAR(255) COLLATE utf8mb3_spanish_ci NOT NULL UNIQUE,
-  `tipo` TINYINT NOT NULL DEFAULT 0,
+  `tipo` TINYINT NOT NULL DEFAULT 3,
   `estado` ENUM('activo', 'bloqueado') NOT NULL DEFAULT 'activo',
   `intentos_fallidos` INT NOT NULL DEFAULT 2,
   PRIMARY KEY (`id_usuario`)
